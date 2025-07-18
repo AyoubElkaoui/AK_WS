@@ -1,36 +1,26 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Blog from "@/components/Blog";
-import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
-  // other metadata
+    title: "AK Web Solutions - Professionele Webontwikkeling Nederland",
+    description: "Moderne websites, webshops en applicaties die écht verkopen. Van Next.js development tot e-commerce platforms - AK Web Solutions levert resultaatgerichte oplossingen.",
+    keywords: "webontwikkeling, website laten maken, Next.js development, webshop, e-commerce, Nederland",
 };
 
 export default function Home() {
-  return (
-    <>
-      <ScrollUp />
-      <Hero />
-      <Features />
-      <Video />
-      <Brands />
-      <AboutSectionOne />
-      <AboutSectionTwo />
-      <Testimonials />
-      <Pricing />
-      <Blog />
-      <Contact />
-    </>
-  );
+    return (
+        <>
+            <ScrollUp />
+            <Hero />
+            <Features />
+            <AboutSectionOne />
+            <Pricing />
+            <Contact />
+        </>
+    );
 }
